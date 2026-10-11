@@ -23,4 +23,3 @@ class Base(models.AbstractModel):
                 company_source_id = record.company_id.id
             record = record.with_context(_check_company_source_id=company_source_id)
             super(Base, record)._check_company(fnames=fnames)
-        return

@@ -3,15 +3,14 @@
 
 {
     "name": "Calendar Event Type Multi Company",
-    "summary": """
-        This module add multi-company management to calendar event type""",
-    "version": "19.0.1.0.0",
+    "summary": "This module add multi-company management to calendar event type",
+    "version": "20.0.1.0.0",
     "license": "AGPL-3",
     "author": "ACSONE SA/NV,Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/multi-company",
     "depends": ["calendar"],
     "data": [
-        "security/calendar_event_type.xml",
         "views/calendar_event_type.xml",
+        "security/ir.access.csv",
     ],
 }
